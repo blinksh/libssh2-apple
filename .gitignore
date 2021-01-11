@@ -1,0 +1,16 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+.swiftpm/
+lib/
+bin/
+libssh2/
+openssl-frameworks/
+*.zip
+openssl/
+frameworks/
+xcframeworks/
+apple.cmake
+release.md
