@@ -102,7 +102,7 @@ for p in Config.platforms {
       "-DBUILD_TESTING=NO",
       "-DENABLE_ZLIB_COMPRESSION=YES",
       "-DENABLE_CRYPT_NONE=YES",
-      "-DENABLE_MAC_NONE=YES",
+      "-DENABLE_MAC_NONE=YES"
       , env: env)
     
     try sh(
