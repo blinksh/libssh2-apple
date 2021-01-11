@@ -1,7 +1,7 @@
 import Foundation
 import FMake
 
-//OutputLevel.default = .error
+OutputLevel.default = .error
 
 enum Config {
   static let libssh2Origin = "https://github.com/libssh2/libssh2.git"
