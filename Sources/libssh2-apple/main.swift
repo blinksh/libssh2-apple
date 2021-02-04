@@ -140,7 +140,7 @@ for p in Config.platforms {
       "-framework Foundation",
       "-framework openssl",
       "-arch \(arch)",
-      "-\(p.minSDKVersionName) \(p.deploymentTarget)",
+      "-\(p.plistMinSDKVersionName) \(p.deploymentTarget)",
       "-syslibroot \(p.sdkPath())",
       "-compatibility_version 1.0.0",
       "-current_version 1.0.0",
